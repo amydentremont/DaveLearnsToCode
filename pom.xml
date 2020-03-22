@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <modules>
+    <module>dave-learns-to-code-loops</module>
+    <module>dave-learns-to-code-hello-world</module>
+  </modules>
+
+  <parent>
+    <groupId>org.basepom</groupId>
+    <artifactId>basepom-oss</artifactId>
+    <version>25</version>
+  </parent>
+
+  <groupId>com.dave</groupId>
+  <artifactId>dave-learns-to-code</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <properties>
+    <project.build.targetJdk>1.8</project.build.targetJdk>
+    <project.build.releaseJdk>8</project.build.releaseJdk>
+  </properties>
+</project>
