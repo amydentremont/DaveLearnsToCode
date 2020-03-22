@@ -4,6 +4,8 @@
   <modules>
     <module>dave-learns-to-code-loops</module>
     <module>dave-learns-to-code-hello-world</module>
+    <module>de</module>
+    <module>dave-learns-to-code-some-basic-types</module>
   </modules>
 
   <parent>
